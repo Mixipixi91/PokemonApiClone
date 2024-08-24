@@ -1,0 +1,33 @@
+* {
+    margin: 25px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.sprite-img{
+    position: relative;
+    top: -29rem;
+    left: 20rem;
+    width: 250px;
+    height: 250px;
+}
+
+.searchbar{
+    font-size:large;
+}
+
+button{
+    background-color: #e7e7e7;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 1.5%;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
